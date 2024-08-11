@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/menu_add">
+
+    <fragment
+        android:id="@+id/menu_add"
+        android:name="com.example.motionfinal.fragments.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add"/>
+
+    <fragment
+        android:id="@+id/menu_details"
+        android:name="com.example.motionfinal.fragments.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details"/>
+
+</navigation>
